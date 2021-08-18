@@ -152,7 +152,7 @@ DevReminder also works on python interpreter (.py scripts), shows execution coun
 Contribution
 ============
 
-Questions and contributions of all kinds are welcome. You can get in contact with me via mail or use create an `issue`_.
+Questions and contributions of all kinds are welcome. You can get in contact with me via mail or create an `issue`_.
 
 .. _`issue`: https://github.com/cagataygulten/devreminder/issues
 
