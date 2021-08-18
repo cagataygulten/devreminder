@@ -78,7 +78,7 @@ Class Arguments:
 Auto remind: If auto remind mode is activated, bot reminds after every executed cell in Ipython. Not suitable for python interpreter.
 
 
-Time threshold: DevReminder Bot only reminds if the execution time is greater then given threshold value as seconds. It is useful when combined with auto remind mode. Default value is 0, it means reminds every cell without considering execution time.
+Time threshold: DevReminder Bot only reminds if the execution time is greater than given threshold value as seconds. It is useful when combined with auto remind mode. Default value is 0, it means reminds every cell without considering execution time.
 
 Functions:
 
@@ -96,7 +96,7 @@ DevReminder.auto_remind(bool): Sets auto remind mode. If no input is given, acts
     remind.auto_remind(True)
 
 
-NOTE: DevReminder class is a singleton class that let you to call it many times with different inputs. So you can change auto remind mode or time threshold value by calling it again in Ipython except using functions.
+NOTE: DevReminder class is a singleton class that lets you to call it many times with different inputs. So you can change auto remind mode or time threshold value by calling it again in Ipython except using functions.
 
 
 ============
@@ -144,7 +144,7 @@ General Info
 
 DevReminder uses own API as a transition API to keep Telegram Bot token private.
 
-DevReminder API does not record any information (including telegram chat id) that sent as a input by users. Source code of API is also in github repository.
+DevReminder API does not record any information (including telegram chat id) that sent as an input by users. Source code of the API is also in github repository.
 
 DevReminder also works on python interpreter (.py scripts), shows execution count as 0.
 
