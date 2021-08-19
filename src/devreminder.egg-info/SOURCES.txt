@@ -1,0 +1,10 @@
+LICENSE.txt
+README.rst
+pyproject.toml
+setup.cfg
+src/devreminder/__init__.py
+src/devreminder/devreminder.py
+src/devreminder.egg-info/PKG-INFO
+src/devreminder.egg-info/SOURCES.txt
+src/devreminder.egg-info/dependency_links.txt
+src/devreminder.egg-info/top_level.txt
