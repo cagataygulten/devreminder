@@ -1,6 +1,6 @@
-=================
+===========
 DevReminder
-=================
+===========
 
 - `Project Description`_
 
@@ -17,9 +17,9 @@ DevReminder
 - `License`_
 
 
-============
+====================
 Project Description
-============
+====================
 
 DevReminder is a pure python project that works as a reminder for developers who are engaged in fields having long execution time such as machine learning and deep learning.
 
@@ -32,9 +32,9 @@ It has `own REST API`_ and uses `Telegram bot API`_ as interface. Telegram is a 
 
 Source code available at https://github.com/cagataygulten/devreminder
 
-===============
+============
 Installation
-===============
+============
 Install package by pip::
 
   pip install devreminder
@@ -48,17 +48,27 @@ Or you can install from source with::
 
 And install telegram application on your mobile phone.
 
-============
+==========
 How to Use
-============
+==========
 
-Open Telegram application, type DevReminder in search field and start a chat with DevReminder bot.
+STEP 1: Open Telegram application, type DevReminder in search field.
+
+|
 
 .. image:: https://github.com/cagataygulten/devreminder/blob/master/pic/picture1.JPG?raw=true
+
 |
+
+STEP 2: Start a chat with DevReminder bot.
+
+|
+
 .. image:: https://github.com/cagataygulten/devreminder/blob/master/pic/picture2.JPG?raw=true
+
 |
-Then copy your chat id.
+
+STEP 3: Then copy your chat id.
 
 Turn back to IDE and import devreminder package, call class with three arguments and use "me" function to trigger bot::
 
@@ -71,6 +81,7 @@ Turn back to IDE and import devreminder package, call class with three arguments
 Output:
 
 .. image:: https://github.com/cagataygulten/devreminder/blob/master/pic/picture3.JPG?raw=true
+
 |
 
 Class Arguments:
@@ -99,9 +110,9 @@ DevReminder.auto_remind(bool): Sets auto remind mode. If no input is given, acts
 NOTE: DevReminder class is a singleton class that lets you to call it many times with different inputs. So you can change auto remind mode or time threshold value by calling it again in Ipython except using functions.
 
 
-============
+========
 Examples
-============
+========
 Without Auto Reminder:::
 
     In [1]>>
@@ -118,7 +129,9 @@ Without Auto Reminder:::
 Output:
 
 .. image:: https://github.com/cagataygulten/devreminder/blob/master/pic/picture4.JPG?raw=true
+
 |
+
 With Auto Reminder:::
 
     In [1]>>
@@ -136,6 +149,7 @@ With Auto Reminder:::
 Output:
 
 .. image:: https://github.com/cagataygulten/devreminder/blob/master/pic/picture5.JPG?raw=true
+
 |
 
 ============
@@ -158,9 +172,9 @@ Questions and contributions of all kinds are welcome. You can get in contact wit
 
 Contact: cagataygulten@gmail.com
 
-============
+=======
 License
-============
+=======
 
 DevReminder is under the MIT license. See LICENSE.txt for more information.
 
